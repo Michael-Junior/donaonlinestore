@@ -4,4 +4,4 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn webdev.wsgi:application --bind 0.0.0.0:$PORT --log-file=-
+    startCommand: gunicorn webdev.wsgi:application --log-file=-
