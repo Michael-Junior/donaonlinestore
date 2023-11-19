@@ -1,6 +1,6 @@
 certifi==2023.11.17
 distlib==0.3.7
-filelock==3.13.1
+filelock==3.12.2
 pipenv==2023.11.15
 platformdirs==3.11.0
 setuptools==68.2.2
