@@ -4,4 +4,4 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn webdev.wsgi:application --log-file=-
+    startCommand: gunicorn donaonlinestore.webdev.wsgi:application --log-file=-
