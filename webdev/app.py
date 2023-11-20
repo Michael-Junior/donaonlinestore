@@ -1,4 +1,4 @@
 import requests
 
 response = requests.get('https://www.python.org/')
-print(response.status_code)
+print("Response: " + str({}) + str(response.status_code))
