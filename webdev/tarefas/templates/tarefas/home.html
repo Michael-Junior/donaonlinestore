@@ -14,6 +14,7 @@
             <h1 class="mt-5">Lista de Tarefas</h1>
 
             <form action="{% url 'tarefas:home' %}" method="post">
+                {% csrf_token %}
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Descreva sua tarefa"
                            aria-label="Recipient's username" aria-describedby="Descreva sua tarefa" name="nome">
